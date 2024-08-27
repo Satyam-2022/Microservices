@@ -22,12 +22,11 @@ public class schoolService {
 
     @PostConstruct
     private void init(){
-       addSchool(new School(nextID++,"KVL","Latur","Hoke"));
-        addSchool(new School(nextID+1,"DKVL","Renapur","Pukki"));
+       addSchool(new School(nextID++,"KVL","Delhi","Hoke"));
+        addSchool(new School(nextID+1,"DKVL","Chennai","Pukki"));
         addSchool(new School(nextID+1,"SVL","Mumbai","Naughty"));
-        addSchool(new School(nextID+1,"DSCL","AUSA","Rowdy"));
+        addSchool(new School(nextID+1,"DSCL","Punjab","Rowdy"));
         addSchool(new School(nextID+1,"SVL","Pune","DasRao"));
-
     }
 
     public List<School> getALLSchools() {
