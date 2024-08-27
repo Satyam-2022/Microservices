@@ -31,11 +31,11 @@ public class studentService {
 
     @PostConstruct
     public void init(){
-       addStudent(new Student(nextId++,"sam","14","male",2));
-        addStudent(new Student(nextId+1,"sam","14","male",3));
-        addStudent(new Student(nextId+1,"sam","14","male",4));
-        addStudent(new Student(nextId+1,"sam","14","male",5));
-        addStudent(new Student(nextId+1,"sam","14","male",6));
+       addStudent(new Student(nextId++,"Neymar","14","male",2));
+        addStudent(new Student(nextId+1,"John","14","male",3));
+        addStudent(new Student(nextId+1,"Rock","14","male",4));
+        addStudent(new Student(nextId+1,"Messi","14","male",5));
+        addStudent(new Student(nextId+1,"Ronaldo","14","male",6));
     }
 
     public List<Student> getAllstudents(){
